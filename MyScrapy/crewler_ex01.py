@@ -13,7 +13,7 @@ urllib.request.install_opener(opener)
 
 data = urllib.request.urlopen(url).read()
 data = data.decode('utf-8')
-
+# headers和postData分析自抓包
 headers = {
     'Accept': 'text/html, application/xhtml+xml, image/jxr',
     'Referer': 'http://www.heibanke.com/lesson/crawler_ex01/',
