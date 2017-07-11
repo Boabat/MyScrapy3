@@ -1,5 +1,6 @@
 """
 爬虫闯关第三题
+http://www.heibanke.com/lesson/crawler_ex02/
 黑板客记账模拟登陆
 """
 import bs4

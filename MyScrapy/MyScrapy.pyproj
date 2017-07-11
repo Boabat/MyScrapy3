@@ -7,7 +7,7 @@
     <ProjectGuid>e2d61cb0-e00a-4a72-a6d6-a0d352ff5bac</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <ProjectTypeGuids>{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
-    <StartupFile>crewler_ex02.py</StartupFile>
+    <StartupFile>crawler_ex03.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -29,6 +29,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="crawler_ex00.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="crawler_ex03.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="crawler_ex04.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="crewler_ex01.py">
